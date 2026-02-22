@@ -12,7 +12,7 @@ import AdminAccess from "./middleware/adminMiddleware.js"
 const app=express()
 const port =3000
 app.use(express.json())
-app.use(cors({origin:"https://notesapp-frontend-mocha.vercel.app/"}))
+app.use(cors({origin:"https://notesapp-frontend-mocha.vercel.app"}))
 dotenv.config()
 await mongoose.connect(process.env.MONGO_URI)
 // await mongoose.connect(process.env.MONGO_URI_NOTES)
