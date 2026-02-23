@@ -16,7 +16,7 @@ It provides secure REST APIs for authentication and note management.
 
 ## 🌐 Deployed API
 
-https://your-backend-url.onrender.com
+https://notesapp-backend-asli.onrender.com
 
 ## ⚙️ Installation (Local Setup)
 
